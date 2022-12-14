@@ -1,0 +1,50 @@
+.produto-caract {
+  padding: 1em;
+  color: #383b58;
+}
+
+.produto-caract h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #1dbeb4;
+}
+
+.produto-caract .caract {
+  margin-top: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.produto-caract .caract li {
+  color: #383b58;
+  width: 25%;
+  padding: 1em;
+}
+
+.produto-caract .caract i{
+  color: #1dbeb4;
+  margin-right: 15px;
+}
+
+@media handheld, screen and (max-width: 768px) {
+  .produto-caract .caract li {
+      width: 50%;
+  }
+}
+
+@media handheld, screen and (max-width: 480px) {
+  .produto-caract {
+      padding: 0 1em;
+  }
+
+  .produto-caract .caract li {
+      padding: 1em;
+  }
+
+  .produto-caract .caract li {
+    font-size: 15px;
+  }
+
+  .produto-caract .caract i{
+      margin-right: 5px;
+  }
+}

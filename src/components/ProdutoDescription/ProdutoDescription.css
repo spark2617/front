@@ -1,0 +1,22 @@
+.produto-Description {
+  padding: 1.5em 1.5em;
+  color: var(--colorDos);
+}
+
+.produto-Description h2 {
+  margin-bottom: 1em;
+} */
+
+ .produto-Description p {
+  line-height: 22px;
+}
+
+@media handheld, screen and (max-width: 480px) {
+  .produto-Description {
+      padding: 0em 1.5em 1.5em;
+  }
+  
+  .produto-Description p { 
+      line-height: normal;
+  }
+}

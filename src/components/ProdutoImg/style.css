@@ -1,0 +1,79 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+/* body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vh;
+} */
+
+/*
+.main{
+    /* From https://css.glass 
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+} 
+*/
+
+.full-screen{
+    width: 100%;
+    height: 100%;
+
+
+    /* glasmor..*/
+background: rgba(0, 0, 0, 0.78);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(0, 0, 0, 0.15);
+    /**/
+
+    position: absolute; top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slide{
+    height: 470px;
+    width: 700px;
+    background-color: white;
+    margin-top: 120px;
+    border-radius: 10px;
+    
+}
+.image-grande{
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    width: 700px;
+    height: 340px;
+}
+.grande{
+    width: 700px;;
+    height: 340px; 
+}
+.image-pequena{
+    
+    margin: 6px;
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    
+}
+
+.grupo-img-pequeno{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+
+

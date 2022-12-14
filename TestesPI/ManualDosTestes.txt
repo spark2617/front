@@ -1,0 +1,11 @@
+Professor aqui estarei explicando, de como configura tudo que fizemos na parte
+de testes:
+
+mandaremos numa branch de front la vai ter uma pasta de testes.
+
+arquivo de casos de testes:
+coloquei o testes positivos,negativos e por ultimo os testes exploratórios (estao separados por uma linha)
+vc mesmo disso que podia deixar assim rs
+
+arquivo de API REST:
+ mandarei o JSON gerado pelo postman com a coleção de teste
